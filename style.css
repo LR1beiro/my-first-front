@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:200,300,400,500,600,700,800');
+
+html,body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+html, body, p, h1, h2, h3, h4, h5, a, span, ul, li, button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    align-items: center;
+    background-color: #3A395A;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    height: 85px;
+}
+
+.header__title {
+    color: #fff;
+}
+
+.header__list {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__list-item {
+    margin: 0 20px;
+    position: relative;
+}
+
+.header__list-item a{
+    color: #fff;
+}
+
+.header__list-item a:hover{
+    color: #00f73d;
+}
+
+.user_menu__avatar {
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+    cursor: pointer;
+}
+
+.user_menu__list {
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    color: #232323;
+    text-align: center;
+    padding: 8px 16px;
+    display: none;
+    width: 120px;
+}
+
+.user_menu__list a{ 
+    color:  #232323;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.user_menu__list--open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    transform: translateX(-70%);
+}

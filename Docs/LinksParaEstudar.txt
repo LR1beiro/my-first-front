@@ -1,0 +1,3 @@
+Criando tabs => https://www.w3schools.com/howto/howto_js_tabs.asp
+Criando Toast => https://www.w3schools.com/howto/howto_js_snackbar.asp
+Estilizando tabela => https://www.w3schools.com/html/html_tables.asp

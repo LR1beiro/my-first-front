@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Nenem Front</title>
+</head>
+<body>
+    <header class="header">
+       <h1 class="header__title" >My Dashboard</h1>
+
+       <ul class= "header__list" >
+           <li class="header__list-item" ><a href="google.com.br" target="_blank">google</a></li>
+           <li class="header__list-item" ><a href="facebook.com.br" target="_blank">facebook</a></li>
+           <li class="header__list-item" ><a href="instagram.com.br" target="_blank">instagram</a></li>
+           <li class="header__list-item" ><a href="youtube.com.br" target="_blank">youtube</a></li>
+       </ul>
+
+       <a href="#"><span>+</span></a>
+
+       <div class= "user_menu">
+           <button onclick="openUserMenu()" class="user_menu__button">
+               <img class="user_menu__avatar" src="./images/user_icon.jpg" alt="User">
+           </button>
+           <div id="user_menu__list" class="user_menu__list">
+               <a href="#">Perfil</a>
+               <a href="#">Settings</a>
+               <a href="#">Sair</a>
+           </div>
+       </div>
+    </header>
+
+    <div class="subheader">
+        <a href="#">All Tranfers</a>
+        <a href="#">Bank Accounts</a>
+        <a href="#">Billing History</a>
+        <a href="#">Transfer Settings</a>
+    </div>
+
+    <div class="container">
+
+        <p class="toast" >You can add any bank profile!</p>
+
+        <div class="content">
+            <p class="lead">
+                <h2 class="lead__title">Tranfers</h2>
+
+                <button>+ add bank</button>
+            </p>
+
+            <table style="width:100%">
+                <tr>
+                    <th>Date</th>
+                    <th>Transfer Bank</th> 
+                    <th>Account Type</th>
+                    <th>Owner</th>
+                    <th>Payment</th>
+                </tr>
+                <tr>
+                    <td><time>Oct 26, 2016</time></td>
+                    <td>Itau</td>
+                    <td>Debit</td>
+                    <td>Leonardo Ribeiro</td>
+                    <td>18900</td>
+
+                </tr>
+                <tr>
+                    <td><time>Oct 26, 2016</time></td>
+                    <td>Bradesco</td>
+                    <td>Debit</td>
+                    <td>Ronan Viana</td>
+                    <td>18900</td>
+                </tr>
+                <tr>
+                    <td><time>Oct 26, 2016</time></td>
+                    <td>Santander</td>
+                    <td>Debit</td>
+                    <td>Geremias Pão com Ovo</td>
+                    <td>80</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
